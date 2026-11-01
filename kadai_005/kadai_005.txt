@@ -5,7 +5,7 @@
 5 echo 'Hello, world!' > hello_world.txt
 6 git add .\hello_world.txt                                                                                          
 7 git commit -m "hello_world.txtを追加"                                                                                    
-8 echo 'こんにちは、世界！' > hello_world.txt
+8 echo 'こんにちは、世界！' >> hello_world.txt
 9 git add .\hello_world.txt                                                                                          
 10 git commit -m "日本語訳を追記"                                                                                    
 11 git log --oneline
